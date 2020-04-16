@@ -33,6 +33,7 @@ router.post('/send', (req, res, next) => {
     }
 
     transporter.sendMail(message, (err, data) => {
+        console.log("Data", data)
         if (err) {
             res.json({
                 status: "Failed"

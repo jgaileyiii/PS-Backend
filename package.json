@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "nodemon ./bin/www",
-    "heroku-postbuild": "npm install"
+    "build": "webpack"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",

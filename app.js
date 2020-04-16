@@ -20,6 +20,7 @@ app.use(cookieParser());
 app.use(cors())
 
 app.use('/api/mailer', mailer)
+app.set('view engine', 'jade')
 
 
 

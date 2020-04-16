@@ -2,8 +2,13 @@
   "name": "jvg3site-be",
   "version": "0.0.0",
   "private": true,
+  "engines": {
+    "node": "12.9.1",
+    "npm": "6.10.2"
+  },
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "nodemon ./bin/www",
+    "heroku-postbuild": "npm install"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
